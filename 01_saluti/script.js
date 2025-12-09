@@ -15,4 +15,18 @@ console.log(saluta() + " " + userName);
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
 
+//stesso esmpio con un'arrow function
+
+const userName2 = 'luigi';
+
+// Dichiara la funzione qui (arrow function)
+const saluta2 = () => {
+    let sayHi = "ciao";
+    return sayHi;
+};
+
+// Invoca la funzione qui e stampa il risultato in console
+console.log(saluta2() +" " + userName2);
+
+
 
